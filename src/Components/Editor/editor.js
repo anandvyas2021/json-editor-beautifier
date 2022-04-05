@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./styles.css";
 
 const inputData = {
   "614095f6283d0000b2004998": {
@@ -71,9 +71,8 @@ const Editor = () => {
     <div className="container">
       <textarea
         className="text-areas input-area"
-        defaultValue={JSON.stringify(inputData, null, 4)}
+//         defaultValue={JSON.stringify(inputData, null, 4)}
       >
-        {/* {JSON.stringify(inputData, null, 4)} */}
       </textarea>
       <div className="controls">
         <p className="errorlog"></p>
