@@ -6,6 +6,7 @@
   box-sizing: border-box;
   gap: 30px;
   padding: 20px;
+}
 
   .text-areas {
     height: 100%;
@@ -16,7 +17,6 @@
     border-radius: 7px;
     background-color: #444444;
     color: #aaaaaa;
-
   }
 
   .error {
@@ -32,7 +32,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .controls-btn {
@@ -47,11 +46,8 @@
     background-color: rgb(16, 214, 181);
     color: white;
     cursor: pointer;
-
-    &:hover {
-      background-color: rgb(20, 168, 144);
-      ;
-    }
-  }
-
 }
+
+ .controls-btn:hover {
+   background-color: rgb(20, 168, 144);
+ }
